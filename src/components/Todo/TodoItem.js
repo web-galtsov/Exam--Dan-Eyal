@@ -18,8 +18,8 @@ const TodoItem = ({ id, title, completed }) => {
 	};
 
 	return (
-		<FormTodoLi className={`list-group-item ${completed && 'list-group-item-success'}`}>
-			<FormTodoLiCon data-aos="zoom-in">
+		<FormTodoLi className={`list-group-item ${completed && 'list-group-item-success'}`} data-aos="zoom-in">
+			<FormTodoLiCon>
 				<span className='d-flex align-items-center'>
 					<input
 						type='checkbox'

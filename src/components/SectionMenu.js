@@ -11,7 +11,7 @@ import {
     Row,
     SectionMenuH1,
     ItemTotal,
-    ItemTotalNumber
+    ItemTotalNumber, BackgroundHeader, SectionImage, Container01
 } from "../Style";
 
 function SectionMenu() {
@@ -28,12 +28,16 @@ function SectionMenu() {
     return (
      <>
       <FlexContainer>
-        <SectionMenuH1 data-aos="zoom-in">
-            <h1>רשימהת קניות</h1>
-            <div className="underline">
-                <div className="br-line"/>
-            </div>
-        </SectionMenuH1>
+         <BackgroundHeader/>
+          <Container01>
+              <SectionImage/>
+               <SectionMenuH1 data-aos="zoom-in">
+                        <h1>רשימהת קניות</h1>
+                        <div className="underline">
+                            <div className="br-line"/>
+                        </div>
+               </SectionMenuH1>
+          </Container01>
       </FlexContainer>
       <Container className="pt20 pb40">
               <Row>

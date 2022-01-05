@@ -88,7 +88,7 @@ input[type=checkbox]:checked ~ label::before {
 }
 
  .underline .br-line{
-    position: relative;
+ /*   position: relative;
     overflow: hidden;
     height: 3px;
     width: 60px;
@@ -96,7 +96,17 @@ input[type=checkbox]:checked ~ label::before {
     right: 0;
     left: 0;
     margin: 0 auto;
-    z-index: 1;
+    z-index: 1;*/
+     position: absolute;
+     overflow: hidden;
+     height: 3px;
+     width: 60px;
+     background: #08B967;
+     right: 0;
+     left: 0;
+     margin: 0 auto;
+     z-index: 1;
+     bottom: 58px
 }
 .underline .br-line{
     margin: 0 auto;

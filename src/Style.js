@@ -1,5 +1,6 @@
 import styled from "styled-components";
-
+import Background from "./assets/slider-bg1.png";
+import Background1 from "./assets/slider-04-671x671.png";
 export const Container =styled.div`
     margin-right: auto;
     margin-left: auto;
@@ -19,16 +20,58 @@ export const Container =styled.div`
       max-width: 1140px;
   }
 `;
+export const Container01 =styled.div`
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    display: flex;
+  @media (min-width: 576px) {
+      max-width: 540px;
+  }
+  @media (min-width: 768px) {
+      max-width: 720px;
+  }
+  @media (min-width: 992px) {
+      max-width: 960px;
+  }
+  @media (min-width: 1200px) {
+      max-width: 1140px;
+  }
+`;
 
+export const BackgroundHeader = styled.div`
+  background-size: auto !important;
+  background-position-x: right !important;
+  background-position-y: top !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 103%;
+  height: 220%;
+  z-index: 0;
+  background:url(${Background}) center center / cover scroll no-repeat; 
+`;
+export const SectionImage = styled.div`
+  position: relative;
+  display: flex;
+  background:url(${Background1}) center center / cover scroll no-repeat;
+  flex-direction: row;
+  width: 731px;
+  height: 402px;
+  right: -81px;
+`;
 export const SectionMenuH1 = styled.div`
   display: flex;
-  flex-direction: column;
-  margin: auto;
-  padding: 60px 20px;
+  flex-direction: row;
+  padding: 60px 9px;
+  margin-top: 17%;
+  position: relative;
  h1: {
    color: #08B967 !important;
-   font-size: 34px;
-   line-height: 45px;
+   font-size: 36px;
+   line-height: 50px;
    text-align: center;
  }
 `;

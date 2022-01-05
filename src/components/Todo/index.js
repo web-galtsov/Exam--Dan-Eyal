@@ -13,7 +13,7 @@ import SectionMenuTodo from "./SectionMenuTodo";
 const Todo = () => {
     return (
           <FlexContainer>
-              <SectionMenuH1>
+              <SectionMenuH1 style={{marginTop: "0"}}>
                   <h3>יש מוצרים אלו במעלקות המתאימות</h3>
                   <div className="underline"><div className="br-line"/></div>
               </SectionMenuH1>
