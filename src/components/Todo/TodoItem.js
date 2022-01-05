@@ -1,7 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { toggleCompleteAsync, deleteTodoAsync } from '../../redux/todoSlice';
-import {RiDeleteBinLine} from "react-icons/ri"
 import {IoCloseOutline} from "react-icons/io5"
 import {
 	FormTodoLi,
