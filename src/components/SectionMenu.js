@@ -30,7 +30,7 @@ function SectionMenu() {
       <FlexContainer>
          <BackgroundHeader/>
           <Container01>
-              <SectionImage/>
+              <SectionImage data-aos="fade-left"/>
                <SectionMenuH1 data-aos="zoom-in">
                         <h1>רשימהת קניות</h1>
                         <div className="underline">
