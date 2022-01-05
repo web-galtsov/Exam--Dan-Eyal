@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "category": "מוצרי ניקיון",
+      "title": "כי בעת הצגת סקיצה",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "category": "גבינות",
+      "title": " איפסום בעברית",
+      "author": "typicode"
+    },
+    {
+      "category": "ירקות ופירות",
+      "title": "האמיתיות והאמינות שלה",
+      "author": "typicode",
+      "id": 3
+    },
+    {
+      "category": "בשר ודגים",
+      "title": "שעין הקורא",
+      "author": "typicode",
+      "id": 4
+    },
+    {
+      "category": "מאפים",
+      "title": "הוא טקסט",
+      "author": "typicode",
+      "id": 5
+    },
+    {
+      "category": "מאפים",
+      "title": "אמיתי קריא",
+      "author": "typicode",
+      "id": 6
+    },
+    {
+      "category": "גבינות",
+      "title": "לטקסט חסר",
+      "author": "typicode",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
